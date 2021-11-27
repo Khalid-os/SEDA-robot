@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+    <html>
+       	<head>
+         	<meta content="text/html; charset=UTF-8" http-equiv="content-type">
+        	<!meta http-equiv="refresh" content="5; url=http://192.168.1.120/mindex.cgi">
+         	<title>Control vbles</title>
+         	<style type="text/css">
+         		.tabla_1
+				{
+					width:40%; 
+					text-align:center;
+				}
+				.tabla_2
+				{
+					width:20%; 
+					text-align:center;
+				}
+         	</style>
+        </head>
+        <body>
+
+			<table border="1">
+				<tbody>
+					<tr>
+						<td class="tabla_1"> Variables: </td>
+						<td class="tabla_2"> Valores: </td>
+						<td align="center" width="200"> Gráfico </td>
+					</tr>
+					<tr>
+						<td class="tabla_1"> Distancia </td>
+c 1						<td class="tabla_2"> %d </td>
+c 2						<td align="center" width="%d" bgcolor="blue"></td>
+					</tr>
+					<tr>
+						<td class="tabla_1"> difSensores </td>
+c 3						<td class="tabla_2"> %d </td>
+c 4						<td align="center" width="%d" bgcolor="blue"></td>
+					</tr>
+					<tr>
+						<td class="tabla_1"> mediaSensores </td>
+c 5						<td class="tabla_2"> %d </td>
+c 6						<td align="center" width="%d" bgcolor="blue"></td>
+					</tr>
+					<tr>
+						<td class="tabla_1"> umbral </td>
+c 7						<td class="tabla_2"> %d </td>
+c 8						<td align="center" width="%d" bgcolor="blue"></td>
+					</tr>
+				</tbody>
+			</table>
+			<form id="formulario" action="/mindex.cgi" method="get"> 
+            	<table style="width: 200px" border="0">
+             	<tbody>
+               		<tr align="center">
+                 		<td border="1" style="width: 100%">
+                   			<div style="font-weight:bold">
+                     			Cambiar valor de umbral:
+                   			</div>
+                		</td>
+              		</tr>
+               		<tr align="center">
+               			<td border="1" style="width: 100%">
+                   			<div style="font-weight:bold">
+                    		 Nuevo valor:<input name="valor" value=""  type="number">
+                   			</div>
+                 		</td>
+                 		<td border="1" style="width: 100%">
+                   			<div style="font-weight:bold"><br>
+                    		 <button name="umbral" value="ON"  type="submit">Actualizar</button>
+                   			</div>
+                 		</td>
+                 		
+               		</tr>
+           		</tbody>
+       </table>
+   </form>
+		</body>
