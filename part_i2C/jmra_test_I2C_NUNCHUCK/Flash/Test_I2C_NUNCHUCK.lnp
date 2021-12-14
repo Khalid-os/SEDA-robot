@@ -1,0 +1,9 @@
+--cpu Cortex-M3
+".\flash\startup_lpc17xx.o"
+".\flash\system_lpc17xx.o"
+".\flash\i2c_lpc17xx.o"
+".\flash\ds1621.o"
+--library_type=microlib --strict --scatter ".\Flash\Test_I2C_NUNCHUCK.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Flash\Test_I2C_NUNCHUCK.map" -o .\Flash\Test_I2C_NUNCHUCK.axf

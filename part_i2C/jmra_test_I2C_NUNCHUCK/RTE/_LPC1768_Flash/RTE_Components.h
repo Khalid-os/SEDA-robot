@@ -3,8 +3,8 @@
  * Auto generated Run-Time-Environment Configuration File
  *      *** Do not modify ! ***
  *
- * Project: 'MenuLEDs' 
- * Target:  'MiniDK2' 
+ * Project: 'Test_I2C' 
+ * Target:  'LPC1768 Flash' 
  */
 
 #ifndef RTE_COMPONENTS_H

@@ -1,0 +1,9 @@
+.\flash\mcp9908.o: mcp9908.c
+.\flash\mcp9908.o: C:\Keil\ARM\Inc\NXP\LPC17xx\LPC17xx.H
+.\flash\mcp9908.o: C:\Keil\ARM\CMSIS\Include\core_cm3.h
+.\flash\mcp9908.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\flash\mcp9908.o: C:\Keil\ARM\CMSIS\Include\core_cmInstr.h
+.\flash\mcp9908.o: C:\Keil\ARM\CMSIS\Include\core_cmFunc.h
+.\flash\mcp9908.o: C:\Keil\ARM\Inc\NXP\LPC17xx\system_LPC17xx.h
+.\flash\mcp9908.o: C:\Keil\ARM\ARMCC\bin\..\include\stdio.h
+.\flash\mcp9908.o: i2c_lpc17xx.h

@@ -727,7 +727,7 @@ void 	initScreenStateMachine(void)
 void screenStateMachine(void)
 { 
 	/* Lee posible pulsación del TouchPanel  */
-   checkTouchPanel();
+   //checkTouchPanel();
 
 	switch (screenState)
 	{
