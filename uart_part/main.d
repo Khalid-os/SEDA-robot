@@ -1,0 +1,11 @@
+.\main.o: main.c
+.\main.o: C:\Users\khali\Desktop\universidad\2020_2021\SED\Keil\LPC1700_DFP\2.6.0\Device\Include\LPC17xx.H
+.\main.o: C:\Users\khali\Desktop\universidad\2020_2021\SED\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h
+.\main.o: C:\Users\khali\Desktop\universidad\2020_2021\SED\ARM\ARMCC\Bin\..\include\stdint.h
+.\main.o: C:\Users\khali\Desktop\universidad\2020_2021\SED\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h
+.\main.o: C:\Users\khali\Desktop\universidad\2020_2021\SED\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h
+.\main.o: C:\Users\khali\Desktop\universidad\2020_2021\SED\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h
+.\main.o: C:\Users\khali\Desktop\universidad\2020_2021\SED\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h
+.\main.o: C:\Users\khali\Desktop\universidad\2020_2021\SED\Keil\LPC1700_DFP\2.6.0\Device\Include\system_LPC17xx.h
+.\main.o: uart.h
+.\main.o: C:\Users\khali\Desktop\universidad\2020_2021\SED\ARM\ARMCC\Bin\..\include\stdio.h
